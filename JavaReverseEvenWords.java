@@ -23,11 +23,13 @@ public class JavaReverseEvenWords {
 	 		for (int i = 0; i < split.length; i++) {
 	 			if(i%2==0) {
 		 			//System.out.print(split[i]+"");
-	 				System.out.print(split[i]=split[i].concat(" "));
+	 				System.out.print(" ");
+	 				System.out.print(split[i]);
 		 		}
 	 			else if(i%2!=0) 
 	 			{	
 		 		char [] arr = split[i].toCharArray();
+		 		System.out.print(" ");
 		 		for (int K = arr.length-1; K >= 0 ; K--)
 		 		{
 		 		System.out.print(arr[K]+"");
